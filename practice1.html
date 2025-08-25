@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="username">Type Text</label>
+        <input type="text" id="username" name="username" />
+        <label for="country">Type select</label>
+        <select id="country" name="country">
+            <option value="cambodia">Cambodia</option>
+            <option value="china">China</option>
+            <option value="japan">Japan</option>
+            <option value="korean">Korean</option>
+            <option value="vietnam">Vietnam</option>
+        </select>
+    </form>
+        <label for="username">Type checkbox</label>
+        <p>Hobbies</p>
+        <input type="checkbox" id="Reading" name="Reading" />
+        <label for="hobbies">Reading</label>
+        <input type="checkbox" id="Sport" name="Sport" />
+        <label for="hobbies">Sport</label>
+        <input type="checkbox" id="Music" name="Music" />
+        <label for="hobbies">Music</label>
+        <form>
+            <label for="picture">Upload Profile Picture:</label>
+            <input type="file" value="browse">
+        </form>
+    <form>
+        <label for="password">Password:</label>
+        <input type="text" id="password" name="password" placeholder="Enter your password" />
+    </form>
+    <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Example@mail.com" />
+    </form>
+    <form>
+        <label for="color">Pick your favorite color:</label>
+        <input type="color" name="color" id="color">
+    </form>
+    <form>
+        <label for="date">Select your birth date:</label>
+        <input type="date" name="date" id="date">
+    </form>
+    <form action="/register" method="register">
+        <button> Register</button>
+    </form>
+</body>
+</html>
